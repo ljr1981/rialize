@@ -38,6 +38,9 @@ This will initialize Rialize, whereupon it will generate its first touch-file in
     Let's say File-A is touched at 10:37 AM and again at 2:15 PM and then again at 2:17 PM — Rialize 
     will tell me that I've done 30 minutes of work on that "project" that day (the 2:15 and 2:17 only 
     count as a single 15 minutes of work).
+    
+    So even if I were staring at code for the four hours between those touches, we don't count that 
+    as work because no updates were saved to disk during that time span.
 
 The next day, you can run the following command line call and produce a Progress Report:
 
