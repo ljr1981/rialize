@@ -1,5 +1,4 @@
-# rialize
-Rialize Progress!
+# Rialize Progress!
 
 ## Overview
 Rialize is a command-line program that periodically monitors file touches (access, change, modify) within a root folder. Every 10 minute, it will look to see if any file has been touched and make a record of that touch in a .\db\ folder as a *.json file. Rialize can be told to run until midnight of the current day, whereupon it will stop. The next day, you can tell Rialize to look at yesterdays data collection and build a Progress Report with some basic information about hours worked.
