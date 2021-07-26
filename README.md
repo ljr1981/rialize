@@ -49,3 +49,15 @@ The next day, you can run the following command line call and produce a Progress
     rialize --report --text .\
 
 This will produce a Progress_report_[stamp].txt file like the example above.
+
+## Future Work
+Rialize is going places. Here is the roadmap ahead:
+- The next step is to test the multi-project facilities of Rialize—that is—can Rialize perform as-expected using the '--file' option rather than the '--text' (single project) option?
+- Assess any feedback for improvements to the Daily Progress Report. This may entail a Linux-based product as well as facilities beyond a reliance on GitHub repositories.
+- Provide first linkage to Foggler BDD specifications, whereby Rialize Progress Reports can speak to the question: "How much more work is there to be done?" (in terms of BDD spec completion).
+
+That last item is very non-trivial. It depends on Foggler being more mature and a serious think-about regarding how one measure future work rather than just daily work done as meaure by file touch recording.
+
+## Version Info
+- v0.0.0.2 — Updated to create its own \db\ project subfolder as-needed. Previously, it was crashing and the user needed to create the subfolder.
+- v0.0.0.1 — First initial commit of the Rialize installer.
