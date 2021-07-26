@@ -35,6 +35,8 @@ Once installed, be sure to add Rialize to your %PATH%. You may now open your fav
 
 This will initialize Rialize, whereupon it will generate its first touch-file in the \db\ folder and then start waiting for each 10 minute segment. After each 10 minute pause, it will generate another touch-file. This will continue until midnight of the day you start Rialize.
 
+NOTE: Let's say File-A is touched at 10:37 AM and again at 2:15 PM and then again at 2:17 PM — Rialize will tell me that I've done 30 minutes of work on that "project" that day (the 2:15 and 2:17 only count as a single 15 minutes of work).
+
 The next day, you can run the following command line call and produce a Progress Report:
 
     rialize --report --text .\
