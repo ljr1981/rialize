@@ -59,6 +59,7 @@ Rialize is going places. Here is the roadmap ahead:
 That last item is very non-trivial. It depends on Foggler being more mature and a serious think-about regarding how one measure future work rather than just daily work done as meaure by file touch recording.
 
 ## Version Info
+- v0.0.0.10 — The report generator now knows how to make a basic touch-point chart showing a timescale with the touch-counts/hour from Midnight-to-Midnight same-day.
 - v0.0.0.8 — Lots of changes including bug fix where Rialize was not reporting touched files in a reasonable way. It now reports only files changed in last 10 minutes with each cycle through looking for changes.
 - v0.0.0.3 — Missing correct version and corrects a bug where Rialize was reporting touches on its own files as work against the overall project folder, which is (of course) not true.
 - v0.0.0.2 — Updated to create its own \db\ project subfolder as-needed. Previously, it was crashing and the user needed to create the subfolder.
