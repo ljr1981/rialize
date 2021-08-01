@@ -105,6 +105,7 @@ Rialize is going places. Here is the roadmap ahead:
 That last item is very non-trivial. It depends on Foggler being more mature and a serious think-about regarding how one measure future work rather than just daily work done as meaure by file touch recording.
 
 ## Version Info
+- v0.0.0.13 — Improved watch list using Regex instead of an earlier hack.
 - v0.0.0.12 — Using just ASC-II for the chart because all attempts (so far) at UTF-8 or Unicode solutions have failed.
 - v0.0.0.11 — Reverted UC_UTF8_STRING back to STRING_32. The chart is still not readable, so I need to come up with another solution.
 - v0.0.0.10 — The report generator now knows how to make a basic touch-point chart showing a timescale with the touch-counts/hour from Midnight-to-Midnight same-day.
