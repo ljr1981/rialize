@@ -73,8 +73,20 @@ Date:   Thu Jul 29 15:54:36 2021 -0400
     and other needed changes.
 
 ```
+## Client-Server Reference
+Rialize now comes with a DOS Client and DOS Server application.
 
-## Quick Reference
+NOTE: After installing, be sure to add the install paths to your Windows PATH list.
+
+Start the Rialize Server (riaserver.exe) first. A realize.sqlite3 database file will be created in whatever path you start the app from.
+
+Once the Server app is running, open another DOS CLI and navigate to your project folder or just type: rialize --server localhost:9090 --text [Full-project-path]. This will start the Client and begin an immediate examination of your project folder, sending the results to the Server application.
+
+The following depicts a screenshot of the Server (left) and Client (right) running on my local machine to monitor the rialize_internal code project itself.
+
+![client-server example](/docs/server_client_in_action.PNG?raw=true "An example of Rialize Client-Server in action.")
+
+## DOS APP Quick Reference
 Install Rialize with the 'rialize_setup.exe' (see this repo). This is a Windows-based application only.
 
 Once installed, be sure to add Rialize to your %PATH%. You may now open your favorite command line DOS prompt, navigate to the folder you would like to monitor, create a .\db\ folder in that directory, and then launch Rialize with the following command line call:
